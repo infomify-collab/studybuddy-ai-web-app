@@ -1,0 +1,8 @@
+{
+  "provider": "Gemini API",
+  "model": "gemini-3.8-flash",
+  "source_sha256": "a72cc9fe2b23fb23ee1908f5be10769497e696dbf69e3068ed7c4906cd8ec43b",
+  "input_tokens": 329,
+  "output_tokens": 522,
+  "total_tokens": 1802
+}

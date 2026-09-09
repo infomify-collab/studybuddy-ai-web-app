@@ -1,0 +1,96 @@
+{
+  "title": "AI Fundamentals Study Pack",
+  "summary": [
+    {
+      "text": "Training modifies the parameters of a model using examples.",
+      "evidence": {
+        "line": 1,
+        "quote": "Training adjusts a model's parameters using examples."
+      }
+    },
+    {
+      "text": "Generative AI is capable of generating text, images, or audio content.",
+      "evidence": {
+        "line": 5,
+        "quote": "Generative AI creates content such as text, images or audio."
+      }
+    },
+    {
+      "text": "An AI hallucination seems believable but is actually false or unsupported.",
+      "evidence": {
+        "line": 6,
+        "quote": "An AI hallucination is an output that sounds plausible but contains false or unsupported information."
+      }
+    }
+  ],
+  "flashcards": [
+    {
+      "question": "What does inference do?",
+      "answer": "It uses an already-trained model to generate output from a new input.",
+      "evidence": {
+        "line": 2,
+        "quote": "Inference uses an already-trained model to produce an output from a new input."
+      }
+    },
+    {
+      "question": "What is a prompt?",
+      "answer": "The instruction and context given to a model for a task.",
+      "evidence": {
+        "line": 3,
+        "quote": "A prompt is the instruction and context supplied to a model for a task."
+      }
+    },
+    {
+      "question": "What is a token?",
+      "answer": "A unit of text processed by a model that is not always a whole word.",
+      "evidence": {
+        "line": 4,
+        "quote": "A token is a unit of text processed by a model; it is not always a complete word."
+      }
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What must not be sent to an AI service without permission?",
+      "options": [
+        "Private information",
+        "Training parameters",
+        "Public text"
+      ],
+      "correct_index": 0,
+      "explanation": "The notes state that private information should not be sent to an AI service without permission.",
+      "evidence": {
+        "line": 8,
+        "quote": "Private information should not be sent to an AI service without permission."
+      }
+    },
+    {
+      "question": "What is the benefit of checking an answer against source material?",
+      "options": [
+        "It adjusts model parameters",
+        "It helps identify unsupported claims",
+        "It formats data into JSON"
+      ],
+      "correct_index": 1,
+      "explanation": "Checking against source material aids in spotting claims that lack support.",
+      "evidence": {
+        "line": 7,
+        "quote": "Checking an answer against source material helps identify unsupported claims."
+      }
+    },
+    {
+      "question": "What is true regarding a valid JSON response?",
+      "options": [
+        "It cannot have any errors",
+        "It can still contain factual errors",
+        "It cannot use arrays and objects"
+      ],
+      "correct_index": 1,
+      "explanation": "Even when JSON syntax is valid, factual errors can still be present in the content.",
+      "evidence": {
+        "line": 10,
+        "quote": "A valid JSON response can still contain factual errors."
+      }
+    }
+  ]
+}
