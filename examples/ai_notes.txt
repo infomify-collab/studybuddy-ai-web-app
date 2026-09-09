@@ -1,1 +1,10 @@
-
+Training adjusts a model's parameters using examples.
+Inference uses an already-trained model to produce an output from a new input.
+A prompt is the instruction and context supplied to a model for a task.
+A token is a unit of text processed by a model; it is not always a complete word.
+Generative AI creates content such as text, images or audio.
+An AI hallucination is an output that sounds plausible but contains false or unsupported information.
+Checking an answer against source material helps identify unsupported claims.
+Private information should not be sent to an AI service without permission.
+JSON is a structured text format that represents data using objects, arrays and values.
+A valid JSON response can still contain factual errors.
